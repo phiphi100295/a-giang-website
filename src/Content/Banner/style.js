@@ -9,6 +9,12 @@ export const useStyle = makeStyles((theme) => ({
     "& .slick-prev": {
       display: "none !important",
     },
+    [theme.breakpoints.down("sm")]: {
+      height: 350,
+    },
+    [theme.breakpoints.down("xs")]: {
+      height: 200,
+    },
   },
   img: {
     width: "100%",

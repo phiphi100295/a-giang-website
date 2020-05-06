@@ -23,7 +23,7 @@ export const useStyle = makeStyles((theme) => ({
     },
     [theme.breakpoints.down("sm")]: {
       paddingLeft: 0,
-      marginTop: 24,
+      marginTop: 28,
     },
     [theme.breakpoints.down("800")]: {
       width: "100%",

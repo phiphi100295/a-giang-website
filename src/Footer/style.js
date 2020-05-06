@@ -2,7 +2,7 @@ import makeStyles from "@material-ui/styles/makeStyles";
 
 export const useStyle = makeStyles((theme) => ({
   root: {
-    marginTop: 100,
+    marginTop: 80,
     height: 90,
     borderTop: "1px solid #F4F4F4",
     color: "#FFFFFF",
